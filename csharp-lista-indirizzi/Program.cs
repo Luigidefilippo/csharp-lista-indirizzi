@@ -34,6 +34,7 @@
                             Console.WriteLine($"This is your address {name} , {surname} , {street} , {city} , {province} , {zip} ");
 
                             Address newAddress = new Address (name , surname , street, city, province, zip);
+                            Address.Add(newAddress);
                         }
 
                     }

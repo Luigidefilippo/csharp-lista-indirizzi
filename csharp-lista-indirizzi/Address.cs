@@ -37,6 +37,11 @@ namespace csharp_lista_indirizzi
             Province = province;
             this.zip = zip;
         }
+
+        internal static void Add(Address newAddress)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
