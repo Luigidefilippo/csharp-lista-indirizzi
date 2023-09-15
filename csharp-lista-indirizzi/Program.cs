@@ -40,21 +40,13 @@
                     }
                    
                 }
+                fileListAddress.Close();
             }
-            catch (Exception e )
+            catch (Exception ex )
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine(ex.Message);
             }
-
-            try
-            {
-                StreamWriter fileToWrite = File.CreateText("C:\\Users\\alien\\source\\repos\\csharp-lista-indirizzi\\csharp-lista-indirizzi\\myaddresses.csv");
-
-                
-            }finally
-            {
-
-            }
+            //SOVRASCRIVERE IL FILE
         }
     }
 }
